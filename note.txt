@@ -1,0 +1,31 @@
+<table>
+ <tr><th>
+  title
+ </th>
+<td>
+ <?= $shwo->id ?>
+</td>
+</tr>
+<tr>
+ <th>title</th>
+<td>
+ <?= $shwo->title ?>
+</td>
+</tr>
+</table>
+
+
+ <input type="text" class="form-control" name="option_a" value="<?= $student_answer_show_data->option_a ?>">
+          </div>
+          <div class="form-group">
+           <label for="">Option_B</label>
+           <input type="text" class="form-control" name="option_b" value="<?= $student_answer_show_data->option_b ?>">
+          </div>
+          <div class="form-group">
+           <label for="">Option_C</label>
+           <input type="text" class="form-control" name="option_c" value="<?= $student_answer_show_data->option_c ?>">
+          </div>
+          <div class="form-group">
+           <label for="">Option_D</label>
+           <input type="text" class="form-control" name="option_d" value="<?= $student_answer_show_data->option_d ?>">
+          </div>
