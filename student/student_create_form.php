@@ -1,7 +1,7 @@
 <?php
-include("layout/head.php");
-include("layout/nav.php"); 
-include("layout/header.php");
+include("../layout/head.php");
+include("../layout/nav.php"); 
+include("../layout/header.php");
 
 ?>
 <div class="container">
@@ -46,4 +46,4 @@ include("layout/header.php");
 
 
 <?php
-include("layout/footer.php");
+include("../layout/footer.php");
